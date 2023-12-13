@@ -1,0 +1,34 @@
+:root {
+  font-size: 16px;
+  --padding-left: 5rem;
+  --padding-right: 5rem;
+  --bg-all: #fafafa;
+  --bg-dark-mode-button: #ffffff;
+  --dark-mode-icon: #111517;
+  --bg-select-reagion: #ffffff;
+  --bg-search-wrapper: #ffffff;
+  --bg-nav: #ffffff;
+  --search-icon-color: #858585;
+  --bs-body-color: #000000;
+  --bg-card: #ffffff;
+  --bs-body-bg: #ffffff;
+  --bg-details: #ffffff;
+  --bs-dropdown-bg: #ffffff !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.dark-mode {
+  --bg-nav: #2b3945;
+  --bg-card: #2b3945;
+  --bg-all: #202c37;
+  --bg-details: #202c37;
+  --bs-body-color: #ffffff;
+  --bg-select-reagion: #2b3945;
+  --bg-search-wrapper: #2b3945;
+  --search-icon-color: #ffffff;
+  --bg-dark-mode-button: #2b3945;
+  --bs-body-bg: #202c37;
+  --bs-dropdown-bg: #2b3945 !important;
+}

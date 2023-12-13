@@ -1,0 +1,48 @@
+.button a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+.button-div {
+  margin-top: 3rem !important;
+  margin-left: var(--padding-left);
+  margin-bottom: 1rem;
+  background-color: var(--bg-details) !important;
+}
+.button {
+  width: 140px !important;
+  height: 36px !important;
+  background-color: var(--bg-dark-mode-button) !important;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+  border: none !important;
+  border-radius: 3px;
+  text-decoration: none !important;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  color: var(--bs-body-color);
+}
+
+.button a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 767px) {
+  .button {
+    width: 6.2rem;
+    margin-left: 2.2rem;
+    margin-top: 2.5rem;
+  }
+ .button-div{
+    margin-left: 0rem !important;
+ }
+  .button-sty {
+    width: 5.5rem;
+    font-size: 0.9rem;
+  }
+}
