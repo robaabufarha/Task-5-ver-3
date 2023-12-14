@@ -12,7 +12,7 @@ const DropdownList = ({ items, defaultLabel = "Filter by" }) => {
 
   return (
     <Dropdown onSelect={handleSelect}>
-      <Dropdown.Toggle variant="success" id="dropdown-basic">
+      <Dropdown.Toggle variant="success">
         {selectedValue === "noValue" ? defaultLabel : selectedValue}
       </Dropdown.Toggle>
 
