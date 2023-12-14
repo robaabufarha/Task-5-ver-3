@@ -1,7 +1,7 @@
-.vertical-menu-container #side-div {
+.vertical-menu-container .side-container {
   padding-left: 0.5rem;
 }
-.vertical-menu-container .favourit-div {
+.vertical-menu-container .favourit-container {
   display: flex;
   width: 185px !important;
   align-items: center;
@@ -17,7 +17,6 @@
   font-weight: 800 !important;
   padding-left: 0.5rem;
   background-color: var(--bg-card);
-  font-family: "Nunito Sans", sans-serif;
   padding-left: 1.2rem !important;
   padding-top: 1rem !important;
 }

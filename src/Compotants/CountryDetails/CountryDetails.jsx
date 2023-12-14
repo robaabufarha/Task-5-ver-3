@@ -1,5 +1,6 @@
 import React from "react";
-import "../pages/Details/DetailsStyle.css";
+import "./CountryDetails.css";
+import "../../pages/Details/Details.css";
 function CountryDetails() {
   return (
     <article className="details-container">
@@ -8,7 +9,7 @@ function CountryDetails() {
         <br />
         <div className="details-info">Population: </div> 11,319,511
         <br />
-        <div className="details-info">Reagion: </div> Europe
+        <div className="details-info">Region: </div> Europe
         <br />
         <div className="details-info">Sub Reagion: </div>Westren Europe
         <br />
@@ -19,7 +20,7 @@ function CountryDetails() {
         <br />
         <div className="details-info">Currencies: </div> Euro
         <br />
-        <div className="details-info">Reagion: </div> Europe
+        <div className="details-info">Region: </div> Europe
         <br />
         <div className="details-info">Langage: </div>Dotch, French, German
       </div>

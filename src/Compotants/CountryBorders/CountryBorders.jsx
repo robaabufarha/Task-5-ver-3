@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/Details/DetailsStyle.css";
+import "./CountryBorders.css";
 function CountryBorders() {
   return (
     <div className="border-countries py-5">

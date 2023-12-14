@@ -1,7 +1,7 @@
 :root {
   font-size: 16px;
-  --padding-left: 5rem;
-  --padding-right: 5rem;
+  --page-padding-left: 5rem;
+  --page-padding-right: 5rem;
   --bg-all: #fafafa;
   --bg-dark-mode-button: #ffffff;
   --dark-mode-icon: #111517;
@@ -31,4 +31,8 @@
   --bg-dark-mode-button: #2b3945;
   --bs-body-bg: #202c37;
   --bs-dropdown-bg: #2b3945 !important;
+}
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+  color: var(--bs-body-color) !important;
 }

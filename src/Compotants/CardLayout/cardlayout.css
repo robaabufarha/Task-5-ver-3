@@ -1,0 +1,21 @@
+.row {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+  margin-bottom: calc(var(--bs-gutter-y));
+  --bs-gutter-y: 4rem !important;
+  --bs-gutter-x: 4rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .row {
+    margin-top: 2rem !important;
+    margin-left: 3rem !important;
+    margin-right: 1rem !important;
+    --bs-gutter-y: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .row {
+    margin-left: -2rem !important;
+  }
+}

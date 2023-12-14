@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-import "./GenericDropdown.css";
-
-import { IoIosArrowDown } from "react-icons/io";
-
+import "./Dropdown.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Dropdown } from "react-bootstrap";
 
-const GenericDropdown = ({ items, defaultLabel = "Filter by" }) => {
+const DropdownList = ({ items, defaultLabel = "Filter by" }) => {
   const [selectedValue, setSelectedValue] = useState("noValue");
 
   const handleSelect = (eventKey) => {
@@ -31,4 +28,4 @@ const GenericDropdown = ({ items, defaultLabel = "Filter by" }) => {
   );
 };
 
-export default GenericDropdown;
+export default DropdownList;

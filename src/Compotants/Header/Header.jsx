@@ -1,13 +1,14 @@
 import React from "react";
-import ThemeButton from "../ThemeButton";
+import Button from "../Button/Button";
+import "../Button/button.css";
 import "./header.css";
 
 function Header({ children }) {
   return (
     <header>
-      <nav className="navbar align-items-center sticky-top">
-        <div className="container-fluid">{children}</div>
-      </nav>
+      <div className=" navbar align-items-center sticky-top container-fluid">
+        {children}
+      </div>
     </header>
   );
 }

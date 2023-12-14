@@ -1,20 +1,29 @@
 import React from "react";
-import "./DetailsStyle.css";
+import "./Details.css";
 import de from "../../assets/images/de.svg";
-import BackButton from "../../Compotants/Button/BackButton";
-import CountryDetails from "../../Compotants/CountryDetails";
-import CountryBorders from "../../Compotants/CountryBorders";
+import CountryDetails from "../../Compotants/CountryDetails/CountryDetails";
+import CountryBorders from "../../Compotants/CountryBorders/CountryBorders";
+import Button from "../../Compotants/Button/Button";
+import { IoIosArrowRoundBack } from "react-icons/io";
+
 function Details() {
   return (
     <div className="details-page">
-      <BackButton />
+      <div className="back-button-container">
+        <Button
+          className={"back-button"}
+          icon={<IoIosArrowRoundBack size={"1.5em"} />}
+          text="Back"
+          linkTo={"/"}
+        />
+      </div>
       <div className="main-container py-5">
         <div>
           <img src={de} alt="Germany flag" />
         </div>
 
         <div>
-          <h2 className="header-country">Belgium</h2>
+          <div className="header-country">Belgium</div>
           <CountryDetails />
           <CountryBorders />
         </div>

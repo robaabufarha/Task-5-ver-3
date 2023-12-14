@@ -1,13 +1,13 @@
 import React from "react";
-import "./FavouritReagion.css";
+import "./FavouritRegion.css";
 function FavouritReagion() {
   return (
-    <div>
-      <div id="side-div">
+    <>
+      <div className="side-container">
         <div className="fav-text sticky-top">Favourites</div>
         <div className="custom-dropdown-menu" />
       </div>
-    </div>
+    </>
   );
 }
 
